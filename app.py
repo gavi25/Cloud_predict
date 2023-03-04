@@ -19,7 +19,7 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
        'Sharjah', 'Mohali', 'Bengaluru']
 
 st.title("IPL Winner Probability Prediction")
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('Model.pkl', 'rb'))
 
 col1, col2 = st.columns(2)
 
